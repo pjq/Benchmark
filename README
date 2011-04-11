@@ -1,0 +1,16 @@
+Benchmark for Android
+
+1.Now just support visit website. 
+You can change the thread number which will running at the same time.
+You can change the total times of the website needed to visit.
+At last,it will print a same result,including:
+when start running,
+when finished,
+And time used in second.
+
+It is simple and funny,just enjoy it.
+
+Contact me:
+Blog:http://www.impjq.net
+Email:pengjianqing@gmail.com (Recommend)
+Twitter:http://twitter.com/pengjianqing

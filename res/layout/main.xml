@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/hint_input_url" />
+	<EditText
+		android:hint="@string/hint_input_url"
+		android:id="@+id/url_edittext"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/default_url"></EditText>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/hint_input_nthread" />
+	<EditText
+		android:hint="@string/hint_input_nthread"
+		android:id="@+id/nthread_edittext"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/default_n_thread"></EditText>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/hint_input_total_times" />
+	<EditText
+		android:hint="@string/hint_input_total_times"
+		android:id="@+id/times_edittext"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/default_times"></EditText>
+	<Button
+		android:id="@+id/start_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="start" />
+	<TextView
+		android:id="@+id/textview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/waiting" />
+</LinearLayout>

@@ -16,7 +16,9 @@ import android.R.integer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.os.Process;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -249,5 +251,22 @@ public class Benchmark extends BaseActivity implements OnClickListener {
             default:
                 break;
         }
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        // TODO Auto-generated method stub
+        switch (keyCode) {
+            case KeyEvent.KEYCODE_BACK: {
+                finish();
+                Process.killProcess(Process.myPid());
+                return true;            
+            }
+
+            default:
+                break;
+        }
+
+        return super.onKeyDown(keyCode, event);
     }
 }

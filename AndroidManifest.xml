@@ -15,8 +15,9 @@
 			android:name="UMENG_APPKEY"></meta-data>
 	</application>
 	<uses-permission android:name="android.permission.INTERNET" />
-		<!-- umeng -->
+	<!-- umeng -->
 	<uses-permission android:name="android.permission.READ_LOGS" />
 	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-sdk android:minSdkVersion="4"></uses-sdk>
 </manifest>

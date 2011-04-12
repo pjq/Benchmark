@@ -1,41 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string
-		name="hello">Hello World, Benchmark!</string>
-	<string
-		name="app_name">Benchmark</string>
-	<string
-		name="hint_input_url">Please input a url</string>
-	<string
-		name="hint_input_nthread">Please input thread number</string>
-	<string
-		name="hint_input_total_times">Please input total times</string>
-	<string
-		name="waiting">Waiting for running benchmark test.</string>
-	<string
-		name="default_url">http://www.taobao.com</string>
-	<string
-		name="default_n_thread">10</string>
-	<string
-		name="default_times">100</string>
-	<string
-		name="start_benchmark">Let\'s go...</string>
-	<string
-		name="thread_running_at_the_same_time">thread running at the same time.</string>
-	<string
-		name="total_times">Total times</string>
-	<string
-		name="replace_count">Count</string>
-	<string
-		name="count_times">Count</string>
-	<string
-		name="finish">Done!</string>
-	<string
-		name="start_at">Start at</string>
-	<string
-		name="finish_at">Finish at</string>
-	<string
-		name="used_time">Used time</string>
-	<string
-		name="second">second</string>
+	<string name="hello">Hello World, Benchmark!</string>
+	<string name="app_name">Benchmark</string>
+	<string name="hint_input_url">Please input a url</string>
+	<string name="hint_input_nthread">Please input thread number</string>
+	<string name="hint_input_total_times">Please input total times</string>
+	<string name="waiting">Waiting for running benchmark test.</string>
+	<string name="default_url">http://www.taobao.com</string>
+	<string name="default_n_thread">10</string>
+	<string name="default_times">100</string>
+	<string name="start_benchmark">Let\'s go...</string>
+	<string name="thread_running_at_the_same_time">thread running at the same time.</string>
+	<string name="total_times">Total times</string>
+	<string name="replace_count">Count</string>
+	<string name="count_times">Count</string>
+	<string name="finish">Done!</string>
+	<string name="start_at">Start at</string>
+	<string name="finish_at">Finish at</string>
+	<string name="used_time">Used time</string>
+	<string name="second">second</string>
+	<string name="success_count">Success</string>
+	<string name="failed_count">Failed</string>
 </resources>

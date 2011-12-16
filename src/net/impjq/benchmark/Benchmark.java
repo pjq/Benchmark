@@ -24,6 +24,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Benchmark extends BaseActivity implements OnClickListener {
     /** Called when the activity is first created. */
@@ -218,6 +219,7 @@ public class Benchmark extends BaseActivity implements OnClickListener {
             String line = "";
             while ((line = bufferedReader.readLine()) != null) {
                 Log.i(TAG, line);
+                //Toast.makeText(getApplicationContext(), line, Toast.LENGTH_SHORT).show();
             }
 
             updateTimes(Constants.BENCHMARK_TYPE_WEBSITE, Constants.STATUS_SUCCESS);

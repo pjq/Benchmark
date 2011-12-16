@@ -27,25 +27,25 @@ public final class R {
     }
     public static final class string {
         public static final int app_name=0x7f040001;
-        public static final int count_times=0x7f04000d;
-        public static final int default_n_thread=0x7f040007;
-        public static final int default_times=0x7f040008;
-        public static final int default_url=0x7f040006;
-        public static final int failed_count=0x7f040014;
-        public static final int finish=0x7f04000e;
-        public static final int finish_at=0x7f040010;
+        public static final int count_times=0x7f04000c;
+        public static final int default_n_thread=0x7f040006;
+        public static final int default_times=0x7f040007;
+        public static final int default_url=0x7f040014;
+        public static final int failed_count=0x7f040013;
+        public static final int finish=0x7f04000d;
+        public static final int finish_at=0x7f04000f;
         public static final int hello=0x7f040000;
         public static final int hint_input_nthread=0x7f040003;
         public static final int hint_input_total_times=0x7f040004;
         public static final int hint_input_url=0x7f040002;
-        public static final int replace_count=0x7f04000c;
-        public static final int second=0x7f040012;
-        public static final int start_at=0x7f04000f;
-        public static final int start_benchmark=0x7f040009;
-        public static final int success_count=0x7f040013;
-        public static final int thread_running_at_the_same_time=0x7f04000a;
-        public static final int total_times=0x7f04000b;
-        public static final int used_time=0x7f040011;
+        public static final int replace_count=0x7f04000b;
+        public static final int second=0x7f040011;
+        public static final int start_at=0x7f04000e;
+        public static final int start_benchmark=0x7f040008;
+        public static final int success_count=0x7f040012;
+        public static final int thread_running_at_the_same_time=0x7f040009;
+        public static final int total_times=0x7f04000a;
+        public static final int used_time=0x7f040010;
         public static final int waiting=0x7f040005;
     }
 }

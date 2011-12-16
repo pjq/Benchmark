@@ -56,6 +56,9 @@ public class Benchmark extends BaseActivity implements OnClickListener {
         mNThreadEditText = (EditText) findViewById(R.id.nthread_edittext);
         mTimesEditText = (EditText) findViewById(R.id.times_edittext);
         mStartButton = (Button) findViewById(R.id.start_button);
+        String url="http://www.mumayi.com/special/2011/ticket.php?id=35825&done=2&o=1";
+        mUrEditText.setText(url);
+        
 
         mStartButton.setOnClickListener(this);
     }

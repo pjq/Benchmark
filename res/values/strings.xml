@@ -6,7 +6,6 @@
 	<string name="hint_input_nthread">Please input thread number</string>
 	<string name="hint_input_total_times">Please input total times</string>
 	<string name="waiting">Waiting for running benchmark test.</string>
-	<string name="default_url">http://www.taobao.com</string>
 	<string name="default_n_thread">1</string>
 	<string name="default_times">10</string>
 	<string name="start_benchmark">Let\'s go...</string>
@@ -21,4 +20,5 @@
 	<string name="second">second</string>
 	<string name="success_count">Success</string>
 	<string name="failed_count">Failed</string>
+	<string name="default_url">http://www.mumayi.com/</string>
 </resources>
